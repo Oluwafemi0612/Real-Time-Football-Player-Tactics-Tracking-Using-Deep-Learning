@@ -10,3 +10,4 @@ for box in results[0].boxes:
 x = 5 
 y = 10
 z = x + y
+print(z)
