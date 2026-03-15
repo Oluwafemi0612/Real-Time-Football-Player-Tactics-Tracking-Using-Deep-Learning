@@ -6,8 +6,3 @@ print(results[0])
 print('-----------------------------')
 for box in results[0].boxes:
     print(box)  # Bounding box coordinates
-
-x = 5 
-y = 10
-z = x + y
-print(z)
