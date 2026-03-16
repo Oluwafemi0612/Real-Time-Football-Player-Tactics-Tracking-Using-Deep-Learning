@@ -1,7 +1,7 @@
 from ultralytics import YOLO
-model = YOLO('yolo26x')
+model = YOLO('models/best.pt')  # Load a pretrained YOLOv8m model
 
-results = model.predict('input_video/E3c993bd2_0 (74).mp4', save=True)
+results = model.predict('input_videos/E3c993bd2_0 (74).mp4', save=True)
 print(results[0])
 print('-----------------------------')
 for box in results[0].boxes:
